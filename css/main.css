@@ -116,8 +116,10 @@ PAGE: PORTFOLIO
   margin-left: 50px;
 }
 .img-cintia {
-  float: left;
-  margin-right: 50px;
+  /*float: left;*/
+  display:block;
+  margin: 0 auto 30px;
+  /*margin-right: 50px;*/
   width:200px;
   height: 200px;
   border: 1px solid green;
@@ -147,7 +149,22 @@ PAGE: PORTFOLIO
 }
 
 
+.adresse a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
 
+.adresse li.phone a {
+  background-image: url('../img/phone.png');
+}
+
+.adresse li.mail a {
+  background-image: url('../img/mail.png');
+}
 
 
 /**********************************
