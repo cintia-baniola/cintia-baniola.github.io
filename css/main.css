@@ -94,6 +94,10 @@ footer {
 /**********************************
 PAGE: SPRACHUNTERICHT
 ***********************************/
+.site-title{
+  color:#000;
+  text-align: center;
+}
 
 #gallery {
   margin: 0;
@@ -104,7 +108,7 @@ PAGE: SPRACHUNTERICHT
 #gallery li {
   float: left;
   width: 22.5%;
-  margin: 5%;
+  margin: 1%;
   background-color: lightyellow;
   /*color: #bdc3c7;*/
 }
