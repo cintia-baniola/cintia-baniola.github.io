@@ -25,6 +25,7 @@ ul {
   list-style: none;
 }
 
+
 /**********************************
 HEADING
 ***********************************/
@@ -49,7 +50,6 @@ h2 {
 }
 
 
-
 /**********************************
 NAVIGATION
 ***********************************/
@@ -64,11 +64,10 @@ nav ul {
   list-style: none;
   margin: 0 10px;
   padding: 0;
-
 }
 
 nav li {
-    display: inline-block;
+  display: inline-block;
 }
 
 nav a {
@@ -88,6 +87,7 @@ footer {
   padding-top: 50px;
   color: #ccc;
 }
+
 
 /* TABLE*/
 
@@ -119,7 +119,7 @@ tr:nth-child(even) {
 }
 
 th, td {
-  text-align: left;
+  text-align: center;
   padding: 20px;
   font-weight: 300;
 }
@@ -136,12 +136,12 @@ tfoot td {
 }
 
 
-
 /**********************************
 PAGE: SPRACHUNTERICHT
 ***********************************/
-.site-title{
-  color:#000;
+
+.site-title {
+  color: #000;
   text-align: center;
 }
 
@@ -160,25 +160,30 @@ PAGE: SPRACHUNTERICHT
 }
 
 .tabs {
-  position: relative;   
-  min-height: 200px; /* This part sucks */
+  position: relative;
+  min-height: 200px;
+  /* This part sucks */
   clear: both;
   margin: 25px 0;
 }
+
 .tab {
   float: left;
 }
+
 .tab label {
-  background: #eee; 
-  padding: 10px; 
-  border: 1px solid #ccc; 
-  margin-left: -1px; 
+  background: #eee;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-left: -1px;
   position: relative;
-  left: 1px; 
+  left: 1px;
 }
+
 .tab [type=radio] {
-  display: none;   
+  display: none;
 }
+
 .content {
   position: absolute;
   top: 28px;
@@ -188,60 +193,62 @@ PAGE: SPRACHUNTERICHT
   right: 0;
   bottom: 0;
   padding: 20px;
-  border: 1px solid #ccc; 
+  border: 1px solid #ccc;
 }
+
 [type=radio]:checked ~ label {
   background: white;
   border-bottom: 1px solid white;
   z-index: 2;
 }
+
 [type=radio]:checked ~ label ~ .content {
   z-index: 1;
 }
 
 .card {
-
-background: #6ab47b;
+  background: #6ab47b;
   margin: 0 auto;
   background: white;
   padding: 0 1.5em 1.5em;
   overflow: auto;
-  box-shadow: 0 1px 0 0 rgba(0,0,0,.1);
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, .1);
 }
+
 .card img {
-    margin-top: 1.5em;
-    max-width: 100%;
+  margin-top: 1.5em;
+  max-width: 100%;
   /*max-width:  calc(100% + .75em);*/
   /*margin-left: -1.5em;*/
 }
 
 
 /* Page Info*/
+
 #image-cinita-wrapper {
   margin-left: 50px;
 }
+
 .img-cintia {
   /*float: left;*/
-  display:block;
+  display: block;
   margin: 0 auto 30px;
   /*margin-right: 50px;*/
-  width:200px;
+  width: 200px;
   height: 200px;
   border: 1px solid green;
   border-radius: 50%;
-
 }
 
 
 /* Page Gruppen */
+
 .kurs-list {
   list-style: disc;
 }
 
 .kurs {
-  
   background: lightgoldenrodyellow;
-
 }
 
 
@@ -252,7 +259,6 @@ background: #6ab47b;
   text-align: left;
   margin-bottom: 50px;
 }
-
 
 .adresse a {
   display: block;
@@ -271,21 +277,42 @@ background: #6ab47b;
   background-image: url('../img/mail.png');
 }
 
+/* Page Anmeldung*/
+.col-wrapper {
+  width: 100%;
+}
+
+.col {
+  float:left;
+  width: 40%;
+  color: black;
+}
+
+anmeldung-header {
+  width: 50%;
+
+}
+
+
+
 
 /**********************************
 COLORS
 ***********************************/
 
+
 /* site body */
+
 body {
   background-color: lightgoldenrodyellow;
   color: #999;
   overflow: auto;
 }
 
-/* green header */
-header {
 
+/* green header */
+
+header {
   margin: 0 0 30px 0;
   padding: 5px 0 0 0;
   background: #6ab47b;
@@ -293,27 +320,37 @@ header {
   width: 100%;
 }
 
+
 /* nav background on mobile */
+
 nav {
   background: #599a68;
 }
 
+
 /* logo text */
+
 h1, h2 {
   color: #fff;
 }
 
+
 /* links */
+
 a {
   color: #6ab47b;
 }
 
+
 /* nav link */
+
 nav a, nav a:visited {
   color: #fff;
 }
 
+
 /* selected nav link */
+
 nav a.selected, nav a:hover {
   color: #32673f;
 }
