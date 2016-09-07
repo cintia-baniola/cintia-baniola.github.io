@@ -10,7 +10,7 @@ $.getJSON("kursdaten.json", function (data) {
     Wochentag = data[key].Wochentag;
     Zeit = data[key].Zeit;
 
-    $("#kurs-aktuell").append("<li><a href='" + Kurs + ".html' "  + "<a>" + Titel + " " + Wochentag +  " " + Zeit + "</a></li>");
+    $("#kurs-aktuell").append("<li><a href='" + Kurs.toLowerCase() + ".html' "  + "<a>" + Titel + " " + Wochentag +  " " + Zeit + "</a></li>");
 
  
   });
