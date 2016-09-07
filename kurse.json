@@ -1,0 +1,27 @@
+{
+   "kurse":[
+    {
+        "Id": 1,
+        "Kurs": "Anfänger ohne Vorkenntnisse",
+        "Titel": "Kurs 1",
+        "Teilnehmer": "7",
+        "Beginn": "2016-09-01",
+        "Wochentag": "Montag",
+        "Tageszeit": "18:00",
+        "Dauer": "1",
+        "Lektionen": "13",
+        "Preis": "400 Fr."
+    },
+    {
+        "Id": 2,
+        "Kurs": "Anfänger ohne Vorkenntnisse",
+        "Titel": "Kurs 1",
+        "Teilnehmer": "7",
+        "Beginn": "2016-09-05",
+        "Wochentag": "Freitag",
+        "Tageszeit": "17:00",
+        "Dauer": "1",
+        "Lektionen": "13",
+    }
+   ]
+}

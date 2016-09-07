@@ -1,0 +1,29 @@
+[
+    {
+        "Id": 1,
+        "Titel": "Anfänger ohne Vorkenntnisse",
+        "Kurs": "Kurs-01",
+        "Beginn": "Montag 04.10.2016",
+        "Zeit": "18:00 - 19:00",
+        "Preis": "400 Fr.",
+        "Wochentag": "Montag"
+    },
+    {
+        "Id": 2,
+        "Titel": "Anfänger mit Vorkenntnissen",
+        "Kurs": "Kurs-02",
+        "Beginn": "Freitag 10.10.2016",
+        "Zeit": "17:00 - 9:00",
+        "Preis": "400 Fr.",
+        "Wochentag": "Freitag"
+    },
+    {
+        "Id": 3,
+        "Titel": "Fortgeschrittene Teilnehmer",
+        "Kurs": "Kurs-03",
+        "Beginn": "Samstag 11.10.2016",
+        "Zeit": "18:00 - 19:00",
+        "Preis": "400 Fr.",
+        "Wochentag": "Samstag"
+    }
+]
