@@ -152,7 +152,9 @@ PAGE: SPRACHUNTERICHT
   list-style: none;
 }
 
-
+#gallery-list {
+  list-style: none;
+}
 
 #gallery li {
   float: left;
@@ -163,7 +165,7 @@ PAGE: SPRACHUNTERICHT
 }
 
 #gallery li p {
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 .tabs {
@@ -347,13 +349,23 @@ section img {
   list-style: none;
 }
 
+
+#kurs-aktuell {
+    line-height: 1.5em;
+}
+
+#kurs-aktuell li:hover {
+  background: yellow;
+}
+
 #kurs-aktuell li span {
   font-weight: bold;
 }
+/*
 #aktuell {
-  padding-top: 50px;
+  padding-top: 150px;
 }
-
+*/
 
 /**********************************
 COLORS
