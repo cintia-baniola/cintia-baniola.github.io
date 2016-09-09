@@ -247,8 +247,8 @@ PAGE: SPRACHUNTERICHT
   display: block;
   margin: 0 auto 30px;
   /*margin-right: 50px;*/
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border: 1px solid green;
   border-radius: 50%;
 }
@@ -298,44 +298,40 @@ anmeldung-header {
 
 }
 
+
 section ul {
   list-style: disc;
-  font-size: .7em;
+  font-size: .9em;
   padding-left: 15px;
 }
-
+/*
 section p {
   font-size: .7em;
   padding-top: 15px;
   margin-bottom: 15px;
 }
 
+
 section h3 {
-  width: 80%;
+  width: 100%;
   margin-left: 35%;
   font-size: .8em;
 }
+*/
 
 section h6 {
   margin:15px 0 0 0;
 }
-section p {
-  width:80%;
-  margin: 0 auto;
-  
-}
 
-section img {
-
-  max-width: 100%;
-  margin-left: 0;
-  margin-right: 15px;
-  margin-bottom: 15px;
+.float-left {
   float: left;
 }
 
 /* Page Kurse                 */
 
+.kurs-img {
+  margin-top: 5%;
+}
 #section-kurse {
   margin: 0 auto;
   
@@ -361,11 +357,20 @@ section img {
 #kurs-aktuell li span {
   font-weight: bold;
 }
-/*
-#aktuell {
-  padding-top: 150px;
+
+/* Page Kurs-01,Kurs-02,Kurs-03                 */
+.col-primary  {
+  float: left;
+  width: 35%;
+  margin-left: -20%;
 }
-*/
+
+.col-secondary {
+  float:left;
+  margin-left: 35%;
+  width: 30%;
+}
+
 
 /**********************************
 COLORS
