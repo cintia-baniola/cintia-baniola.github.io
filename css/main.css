@@ -326,7 +326,7 @@ section p {
 section img {
 
   max-width: 100%;
-  margin-left: 35%;
+  margin-left: 0;
   margin-right: 15px;
   margin-bottom: 15px;
   float: left;
