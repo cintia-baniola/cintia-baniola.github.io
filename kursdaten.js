@@ -7,6 +7,10 @@ var trStart = "<tr>";
 var trEnd = "</tr>";
 var tcStart = "<td>";
 var tcEnd = "</td>";
+var linkStart = "<a href='";
+var linkEnd = "</a>";
+var linkKurs = "";
+var linkTitel = "";
 
 var fieldId, fieldKurs, fieldTitel, fieldBeginn, fieldZeit, fieldPreis = "";
 var Id, Kurs, Titel, Beginn, Zeit, Preis = "";
@@ -21,19 +25,24 @@ $.getJSON("kursdaten.json", function (data) {
     Zeit = data[key].Zeit;
     Preis = data[key].Preis;
 
-    //$("#kurs-list").append("<li id='" + Id + "'>" + Kurs + " - " + Titel + " - Beginn: " + Beginn +  " - Zeit: " + Zeit +  " - Preis: " + Preis + "</li>");
-
     fieldId = tcStart + Id + tcEnd;
+
+    //linkKurs = linkStart + (Kurs).toLowerCase() + " >" + Kurs + linkEnd;
+    
+
     fieldKurs = tcStart + Kurs + tcEnd;
-    fieldTitel = tcStart + Titel + tcEnd;
+    
+    linkTitel = linkStart + (Kurs).toLowerCase() + ".html' >" + Titel + linkEnd;
+    fieldTitel = tcStart + linkTitel + tcEnd;
+    console.log(fieldTitel);
 
     fieldBeginn = tcStart + Beginn + tcEnd;
 
     fieldZeit = tcStart + Zeit + tcEnd;
 
     fieldPreis = tcStart + Preis + tcEnd;
-    tableRows += trStart + fieldId + fieldKurs + fieldTitel + fieldBeginn + fieldZeit + fieldPreis + trEnd;
-
+    tableRows += trStart  + fieldId + fieldKurs + fieldTitel + fieldBeginn + fieldZeit + fieldPreis + trEnd;
+    
   });
 
   table = tableHeader + tableRows + tableFooter;
